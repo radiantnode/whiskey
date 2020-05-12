@@ -4,6 +4,6 @@ A log of whiskeys that I have tried and catalogued here.
 
 ### Available Formats
 
-* [Markdown](../blob/master/whiskeys.md)
+* [Markdown](whiskeys.md)
 
 More formats coming soon.
