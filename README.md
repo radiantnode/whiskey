@@ -1,4 +1,6 @@
-# 🥃 Whiskey
+# 🥃 Whiskey 
+
+![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg)
 
 A curated list of whiskeys I like. [Learn More](#about-this-project)
 
