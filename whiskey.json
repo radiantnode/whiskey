@@ -15,12 +15,12 @@
     },
     "batches": [
       {
-        "label_batch": 0038,
-        "bottle_number": 0912,
+        "label_batch": "0038",
+        "bottle_number": "0912"
       },
       {
-        "label_batch": 0040,
-        "bottle_number": 0037
+        "label_batch": "0040",
+        "bottle_number": "0037"
       }
     ],
     "stars": 4
