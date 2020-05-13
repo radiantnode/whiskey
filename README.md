@@ -1,10 +1,8 @@
 # 🥃 Whiskey
 
-A curated list of whiskeys I like.
+A curated list of whiskeys I like. [Learn More](#about-this-project)
 
-----
-
-| Bottle                                                                                       | Distiliary | Location       | Name                                                                   | Batch Info (when available)                                                | Rating |
+| Bottle                                                                                       | Distiliary | Location       | Name ▲                                                                 | Batch Info (when available)                                                | Rating |
 |----------------------------------------------------------------------------------------------|------------|----------------|------------------------------------------------------------------------|----------------------------------------------------------------------------|--------|
 | <div align="center"><img src="images/oak_and_eden_bourbon_and_spire.png" height="60"></div>  | Oak & Eden | Bridgeport, TX | [Bourbon & Spire](https://www.oakandeden.com/bourbon)                  | Label Batch: 0038, Bottle No.: 0912<br>Label Batch: 0040, Bottle No.: 0037 | ★★★★☆  |
 | <div align="center"><img src="images/skrewball_peanut_butter_whiskey.png" height="60"></div> | Skrewball  | San Diego, CA  | [Peanut Butter Whiskey](https://www.skrewballwhiskey.com/)             |                                                                            | ★★★★★  |
@@ -12,7 +10,11 @@ A curated list of whiskeys I like.
 
 ----
 
-### Available formats:
+### About this project
 
-* [Markdown](README.md)
+This project is meant as a personal record of whiskeys I like but also a way to experiment with different data formats.
+
+#### Available formats
+
+* [Markdown](README.md) (_this file_)
 * more coming soon.
