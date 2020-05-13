@@ -16,5 +16,6 @@ This project is meant as a personal record of whiskeys I like but also a way to 
 
 #### Available formats
 
+* [JSON](whiskeys.json) (_master record_)
 * [Markdown](README.md) (_this file_)
 * more coming soon.
