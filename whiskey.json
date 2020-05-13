@@ -1,0 +1,60 @@
+[
+  {
+    "uuid": "c0676ad9-dca0-483b-981d-0fe210485c7b",
+    "name": "Bourbon & Spire",
+    "url": "https://www.oakandeden.com/bourbon",
+    "bottle_image": "oak_and_eden_bourbon_and_spire.png",
+    "distiliary": {
+      "uuid": "4f5f40bb-fe42-40a7-8c77-7c971959a18e",
+      "name": "Oak & Eden",
+      "location": {
+        "name": "Bridgeport, TX",
+        "latitude": 33.210117,
+        "longitude": -97.754753
+      }
+    },
+    "batches": [
+      {
+        "label_batch": "0038",
+        "bottle_number": "0912"
+      },
+      {
+        "label_batch": "0040",
+        "bottle_number": "0037"
+      }
+    ],
+    "stars": 4
+  },
+  {
+    "uuid": "c71f75ab-c9a8-4c15-ab5c-715150ea5632",
+    "name": "Peanut Butter Whiskey",
+    "url": "https://www.skrewballwhiskey.com/",
+    "bottle_image": "skrewball_peanut_butter_whiskey.png",
+    "distiliary": {
+      "uuid": "2a8ad9b5-3b23-4676-97b0-7d495db23012",
+      "name": "Skrewball",
+      "location": {
+        "name": "San Diego, CA",
+        "latitude": 32.715736,
+        "longitude": -117.161087
+      }
+    },
+    "stars": 5
+  },
+  {
+    "uuid": "ac588c3e-fbb4-45c0-98f3-2ba9e106e126",
+    "name": "Piggyback Rye",
+    "url": "https://whistlepigwhiskey.com/whiskeys/piggyback-rye/",
+    "bottle_image": "whistlepig_piggyback_rye_6yr.png",
+    "distiliary": {
+      "uuid": "4bd8ad2c-390d-4dbc-ad2e-0e9922d66053",
+      "name": "Whistlepig",
+      "location": {
+        "name": "Shoreham, VT",
+        "latitude": 43.912406,
+        "longitude": -73.279162
+      }
+    },
+    "stars": 5
+  }
+]

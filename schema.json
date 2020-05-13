@@ -1,0 +1,140 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Whiskeys",
+  "type": "array",
+  "default": [],
+  "items": {
+    "$id": "#root/items",
+    "title": "Items",
+    "type": "object",
+    "required": ["uuid", "name", "url", "bottle_image", "distiliary", "stars"],
+    "properties": {
+      "uuid": {
+        "$id": "#root/items/uuid",
+        "title": "Uuid",
+        "type": "string",
+        "default": "",
+        "examples": ["c0676ad9-dca0-483b-981d-0fe210485c7b"],
+        "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+      },
+      "name": {
+        "$id": "#root/items/name",
+        "title": "Name",
+        "type": "string",
+        "default": "",
+        "examples": ["Bourbon & Spire"],
+        "pattern": "^.*$"
+      },
+      "url": {
+        "$id": "#root/items/url",
+        "title": "URL",
+        "type": "string",
+        "default": "",
+        "examples": ["https://www.oakandeden.com/bourbon"],
+        "pattern": "^.*$"
+      },
+      "bottle_image": {
+        "$id": "#root/items/bottle_image",
+        "title": "Bottle image",
+        "type": "string",
+        "default": "",
+        "examples": ["oak_and_eden_bourbon_and_spire.png"],
+        "pattern": "^.*$"
+      },
+      "distiliary": {
+        "$id": "#root/items/distiliary",
+        "title": "Distiliary",
+        "type": "object",
+        "required": ["uuid", "name", "location"],
+        "properties": {
+          "uuid": {
+            "$id": "#root/items/distiliary/uuid",
+            "title": "Uuid",
+            "type": "string",
+            "default": "",
+            "examples": ["4f5f40bb-fe42-40a7-8c77-7c971959a18e"],
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          },
+          "name": {
+            "$id": "#root/items/distiliary/name",
+            "title": "Name",
+            "type": "string",
+            "default": "",
+            "examples": ["Oak & Eden"],
+            "pattern": "^.*$"
+          },
+          "location": {
+            "$id": "#root/items/distiliary/location",
+            "title": "Location",
+            "type": "object",
+            "required": ["name", "latitude", "longitude"],
+            "properties": {
+              "name": {
+                "$id": "#root/items/distiliary/location/name",
+                "title": "Name",
+                "type": "string",
+                "default": "",
+                "examples": ["Bridgeport, TX"],
+                "pattern": "^.*$"
+              },
+              "latitude": {
+                "$id": "#root/items/distiliary/location/latitude",
+                "title": "Latitude",
+                "type": "number",
+                "examples": [33.210117],
+                "default": null
+              },
+              "longitude": {
+                "$id": "#root/items/distiliary/location/longitude",
+                "title": "Longitude",
+                "type": "number",
+                "examples": [-97.754753],
+                "default": null
+              }
+            }
+          }
+        }
+      },
+      "batches": {
+        "$id": "#root/items/batches",
+        "title": "Batches",
+        "type": "array",
+        "default": [],
+        "items": {
+          "$id": "#root/items/batches/items",
+          "title": "Items",
+          "type": "object",
+          "required": ["label_batch", "bottle_number"],
+          "properties": {
+            "label_batch": {
+              "$id": "#root/items/batches/items/label_batch",
+              "title": "Label_batch",
+              "type": "string",
+              "default": "",
+              "examples": ["0038"],
+              "pattern": "^.*$"
+            },
+            "bottle_number": {
+              "$id": "#root/items/batches/items/bottle_number",
+              "title": "Bottle_number",
+              "type": "string",
+              "default": "",
+              "examples": ["0912"],
+              "pattern": "^.*$"
+            }
+          }
+        }
+      },
+      "stars": {
+        "$id": "#root/items/stars",
+        "title": "Stars",
+        "type": "integer",
+        "examples": [4],
+        "minimum": 1,
+        "maximum": 5,
+        "default": 1
+      }
+    }
+  }
+}
