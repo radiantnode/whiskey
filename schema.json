@@ -1,0 +1,104 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        },
+        "bottle_image": {
+          "type": "string"
+        },
+        "distiliary": {
+          "type": "object",
+          "properties": {
+            "uuid": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "latitude": {
+                  "type": "number"
+                },
+                "longitude": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "name",
+                "latitude",
+                "longitude"
+              ]
+            }
+          },
+          "required": [
+            "uuid",
+            "name",
+            "location"
+          ]
+        },
+        "batches": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "label_batch": {
+                  "type": "string"
+                },
+                "bottle_number": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "label_batch",
+                "bottle_number"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "label_batch": {
+                  "type": "string"
+                },
+                "bottle_number": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "label_batch",
+                "bottle_number"
+              ]
+            }
+          ]
+        },
+        "stars": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "uuid",
+        "name",
+        "url",
+        "bottle_image",
+        "distiliary",
+        "stars"
+      ]
+    }
+  ]
+}
