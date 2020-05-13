@@ -22,9 +22,7 @@ TABLE_PLACEHOLDER_REGEX = /#{TABLE_PLACEHOLDER_START}[\s\S]*?#{TABLE_PLACEHOLDER
 
 namespace :markdown do
   desc 'Generates a Github-friendly markdown table of whiskeys'
-  task :generate, [:update_readme] do |_t, args|
-    args.with_defaults(update_readme: false)
-
+  task :generate, [:update_readme] do ||
     rows = [HEADINGS, :separator]
     json = JSON.parse(File.read(WHISKEY_JSON))
     json.sort_by! { |w| w.dig('name') }
@@ -56,7 +54,7 @@ namespace :markdown do
       boundary_intersection: '|'
     ).to_s.lines[1..-2].join # removes top and bottom borders
 
-    if args.update_readme
+    if ENV.has_key?('UPDATE_README')
       puts 'Updating README.'
 
       readme = File.read(README_FILE)
