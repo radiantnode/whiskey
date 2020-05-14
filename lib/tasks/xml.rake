@@ -29,7 +29,7 @@ namespace :xml do
             end
           end
 
-          if w.has_key?('batches')
+          if w.key?('batches')
             xml.batches do
               w.dig('batches').each do |batch|
                 xml.batch do

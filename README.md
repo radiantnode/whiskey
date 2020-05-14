@@ -1,7 +1,5 @@
 # 🥃 Whiskey
 
-![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg) ![Validate XML](https://github.com/radiantnode/whiskey/workflows/Validate%20XML/badge.svg)
-
 A curated list of whiskeys I like. [Learn More](#about-this-project)
 
 <!-- WHISKEY-TABLE:BEGIN -->
@@ -12,11 +10,13 @@ A curated list of whiskeys I like. [Learn More](#about-this-project)
 | <div align="center"><img src="images/whistlepig_piggyback_rye_6yr.png" height="60"></div>    | Whistlepig | Shoreham, VT   | [Piggyback Rye](https://whistlepigwhiskey.com/whiskeys/piggyback-rye/) |                                                                                  | ★★★★★  |
 <!-- WHISKEY-TABLE:END -->
 
-_Table automatically generated with `rake markdown:generate UPDATE_README=1`_
+_Table dynamically generated with `rake markdown:generate UPDATE_README=1`_
 
 ----
 
 ## About this project
+
+![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg) ![Validate XML](https://github.com/radiantnode/whiskey/workflows/Validate%20XML/badge.svg)
 
 This project is meant as a personal record of whiskeys I like but also a way to experiment with different data formats.
 

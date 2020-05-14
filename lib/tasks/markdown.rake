@@ -37,7 +37,7 @@ namespace :markdown do
       boundary_intersection: '|'
     ).to_s.lines[1..-2].join # removes top and bottom borders
 
-    if ENV.has_key?('UPDATE_README')
+    if ENV.key?('UPDATE_README')
       puts 'Updating README.'
 
       readme = File.read(README_FILE)
