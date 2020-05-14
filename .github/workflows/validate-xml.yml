@@ -1,0 +1,15 @@
+name: Validate XML
+
+on: [pull_request]
+
+jobs:
+  verify-xml-validation:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Lint whiskey.xml
+      uses: ChristophWurst/xmllint-action@v1
+      with:
+        xml-file: ./formats/xml/whiskey.xml
+        xml-schema-file: ./formats/xml/schema.xsd

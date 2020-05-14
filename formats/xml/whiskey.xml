@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<whiskeys>
+  <whiskey>
+    <uuid>c0676ad9-dca0-483b-981d-0fe210485c7b</uuid>
+    <name>Bourbon &amp; Spire</name>
+    <url>https://www.oakandeden.com/bourbon</url>
+    <bottle_image>oak_and_eden_bourbon_and_spire.png</bottle_image>
+    <distiliary>
+      <uuid>4f5f40bb-fe42-40a7-8c77-7c971959a18e</uuid>
+      <name>Oak &amp; Eden</name>
+      <location>
+        <name>Bridgeport, TX</name>
+        <latitude>33.210117</latitude>
+        <longitude>-97.754753</longitude>
+      </location>
+    </distiliary>
+    <batches>
+      <batch>
+        <label_batch>0038</label_batch>
+        <bottle_number>0912</bottle_number>
+      </batch>
+      <batch>
+        <label_batch>0040</label_batch>
+        <bottle_number>0037</bottle_number>
+      </batch>
+    </batches>
+    <stars>4</stars>
+  </whiskey>
+  <whiskey>
+    <uuid>c71f75ab-c9a8-4c15-ab5c-715150ea5632</uuid>
+    <name>Peanut Butter Whiskey</name>
+    <url>https://www.skrewballwhiskey.com/</url>
+    <bottle_image>skrewball_peanut_butter_whiskey.png</bottle_image>
+    <distiliary>
+      <uuid>2a8ad9b5-3b23-4676-97b0-7d495db23012</uuid>
+      <name>Skrewball</name>
+      <location>
+        <name>San Diego, CA</name>
+        <latitude>32.715736</latitude>
+        <longitude>-117.161087</longitude>
+      </location>
+    </distiliary>
+    <stars>5</stars>
+  </whiskey>
+  <whiskey>
+    <uuid>ac588c3e-fbb4-45c0-98f3-2ba9e106e126</uuid>
+    <name>Piggyback Rye</name>
+    <url>https://whistlepigwhiskey.com/whiskeys/piggyback-rye/</url>
+    <bottle_image>whistlepig_piggyback_rye_6yr.png</bottle_image>
+    <distiliary>
+      <uuid>4bd8ad2c-390d-4dbc-ad2e-0e9922d66053</uuid>
+      <name>Whistlepig</name>
+      <location>
+        <name>Shoreham, VT</name>
+        <latitude>43.912406</latitude>
+        <longitude>-73.279162</longitude>
+      </location>
+    </distiliary>
+    <stars>5</stars>
+  </whiskey>
+</whiskeys>

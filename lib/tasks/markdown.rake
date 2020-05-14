@@ -3,26 +3,9 @@
 require 'text-table'
 require 'json'
 
-WHISKEY_JSON = './whiskey.json'
-HEADINGS = [
-  'Bottle',
-  'Distiliary',
-  'Location',
-  'Name',
-  'Batch Info (when available)',
-  'Rating'
-].freeze
-STAR = '★'
-EMPTY_STAR = '☆'
-MAX_STARS = 5
-README_FILE = './README.md'
-TABLE_PLACEHOLDER_START = '<!-- WHISKEY-TABLE:BEGIN -->'
-TABLE_PLACEHOLDER_END = '<!-- WHISKEY-TABLE:END -->'
-TABLE_PLACEHOLDER_REGEX = /#{TABLE_PLACEHOLDER_START}[\s\S]*?#{TABLE_PLACEHOLDER_END}/.freeze
-
 namespace :markdown do
   desc 'Generates a Github-friendly markdown table of whiskeys'
-  task :generate, [:update_readme] do ||
+  task :generate, [:update_readme] do
     rows = [HEADINGS, :separator]
     json = JSON.parse(File.read(WHISKEY_JSON))
     json.sort_by! { |w| w.dig('name') }
