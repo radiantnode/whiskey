@@ -8,7 +8,7 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@master
-    - name: Lint info.xml
+    - name: Lint whiskey.xml
       uses: ChristophWurst/xmllint-action@v1
       with:
         xml-file: ./formats/xml/whiskey.xml
