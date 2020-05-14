@@ -1,0 +1,50 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="whiskeys">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="whiskey" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="uuid"/>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="url"/>
+              <xs:element type="xs:string" name="bottle_image"/>
+              <xs:element name="distiliary">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="uuid"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element name="location">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="name"/>
+                          <xs:element type="xs:float" name="latitude"/>
+                          <xs:element type="xs:float" name="longitude"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="batches" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="batch" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:byte" name="label_batch"/>
+                          <xs:element type="xs:short" name="bottle_number"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:byte" name="stars"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

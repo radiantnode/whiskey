@@ -22,6 +22,7 @@ This project is meant as a personal record of whiskeys I like but also a way to 
 
 ### Available formats
 
-* [JSON](whiskey.json) (_master record_)
+* [JSON](formats/json/whiskey.json) (_master record_)
 * [Markdown](README.md) (_this file_)
+* [XML](formats/xml/whiskey.xml)
 * more coming soon.
