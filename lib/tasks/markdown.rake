@@ -3,6 +3,8 @@
 require 'text-table'
 require 'json'
 
+Terrible_hash = {"thisshould_upset_rubocop" => true, myKey: false, array:[1,   2, 3]}
+
 namespace :markdown do
   desc 'Generates a Github-friendly markdown table of whiskeys'
   task :generate, [:update_readme] do
