@@ -10,3 +10,6 @@ jobs:
       uses: actions/checkout@master
     - name: Validate YAML
       uses: ibiqlik/action-yamllint@master
+      with:
+        file_or_dir: formats/yaml/*
+        config_file: .yamllint.yaml
