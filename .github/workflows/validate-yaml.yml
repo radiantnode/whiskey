@@ -1,0 +1,12 @@
+name: Validate YAML
+
+on: [pull_request]
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+    - name: Validate YAML
+      uses: nwisbeta/validate-yaml-schema@v1.0
