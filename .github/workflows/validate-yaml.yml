@@ -9,4 +9,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
     - name: Validate YAML
-      uses: nwisbeta/validate-yaml-schema@v1.0
+      uses: ibiqlik/action-yamllint@master
