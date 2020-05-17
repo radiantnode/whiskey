@@ -5,3 +5,4 @@ extends: default
 rules:
   indentation:
     spaces: consistent
+    indent-sequences: whatever
