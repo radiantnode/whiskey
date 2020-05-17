@@ -11,5 +11,5 @@ jobs:
         uses: actions/checkout@master
       - name: 'yamllint'
         uses: karancode/yamllint-github-action@master
-        # with:
-        #   yamllint_file_or_dir: 'formats/yaml/'
+        with:
+          yamllint_file_or_dir: 'formats/yaml/'
