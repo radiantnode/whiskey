@@ -14,7 +14,7 @@ jobs:
         with:
           yamllint_file_or_dir: 'formats/yaml/'
           yamllint_strict: true
-          yamllint_comment: true
-          yamllint_config_datapath: '.yamllint.yaml'
+          yamllint_comment: false
+          # yamllint_config_datapath: '.yamllint.yaml'
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
