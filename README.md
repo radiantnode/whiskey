@@ -1,6 +1,6 @@
 # 🥃 Whiskey
 
-![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg) ![Validate XML](https://github.com/radiantnode/whiskey/workflows/Validate%20XML/badge.svg)
+![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg) ![Validate XML](https://github.com/radiantnode/whiskey/workflows/Validate%20XML/badge.svg) ![Validate YAML](https://github.com/radiantnode/whiskey/workflows/Validate%20YAML/badge.svg)
 
 A curated list of whiskeys I like. [Learn More](#about-this-project)
 
