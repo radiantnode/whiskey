@@ -1,5 +1,7 @@
 # 🥃 Whiskey
 
+![Validate JSON](https://github.com/radiantnode/whiskey/workflows/Validate%20JSON/badge.svg) ![Validate XML](https://github.com/radiantnode/whiskey/workflows/Validate%20XML/badge.svg) ![Validate YAML](https://github.com/radiantnode/whiskey/workflows/Validate%20YAML/badge.svg)
+
 A curated list of whiskeys I like. [Learn More](#about-this-project)
 
 <!-- WHISKEY-TABLE:BEGIN -->
@@ -25,4 +27,5 @@ This project is meant as a personal record of whiskeys I like but also a way to 
 * [JSON](formats/json/whiskey.json) (_master record_)
 * [Markdown](README.md) (_this file_)
 * [XML](formats/xml/whiskey.xml)
+* [YAML](formats/yaml/whiskey.yaml)
 * more coming soon.
