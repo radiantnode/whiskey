@@ -105,19 +105,19 @@
           "$id": "#root/items/batches/items",
           "title": "Items",
           "type": "object",
-          "required": ["label_batch", "bottle_number"],
+          "required": ["label", "bottle"],
           "properties": {
             "label_batch": {
-              "$id": "#root/items/batches/items/label_batch",
-              "title": "Label_batch",
+              "$id": "#root/items/batches/items/label",
+              "title": "Label",
               "type": "string",
               "default": "",
               "examples": ["0038"],
               "pattern": "^.*$"
             },
             "bottle_number": {
-              "$id": "#root/items/batches/items/bottle_number",
-              "title": "Bottle_number",
+              "$id": "#root/items/batches/items/bottle",
+              "title": "Bottle",
               "type": "string",
               "default": "",
               "examples": ["0912"],

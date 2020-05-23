@@ -11,11 +11,26 @@
       latitude: 33.210117
       longitude: -97.754753
   batches:
-  - label_batch: '0038'
-    bottle_number: '0912'
-  - label_batch: '0040'
-    bottle_number: '0037'
+  - label: '0038'
+    bottle: '0912'
+  - label: '0040'
+    bottle: '0037'
   stars: 4
+- uuid: 9f67ea7f-15e2-4ee2-b95d-62541a063521
+  name: Mr. Black Cold Brew Coffee Liqueur
+  url: https://mrblack.co/us/
+  bottle_image: mr_black.png
+  distiliary:
+    uuid: fad56af5-c081-439e-84ea-aa15f7b83f6f
+    name: Mr. Black Coffee Roasters & Craft Distillers
+    location:
+      name: New South Wales, Australia
+      latitude: -31.840233
+      longitude: 145.612793
+  batches:
+  - label: 004/300
+    bottle: A1394
+  stars: 5
 - uuid: c71f75ab-c9a8-4c15-ab5c-715150ea5632
   name: Peanut Butter Whiskey
   url: https://www.skrewballwhiskey.com/

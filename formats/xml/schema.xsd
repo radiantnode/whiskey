@@ -32,8 +32,8 @@
                     <xs:element name="batch" maxOccurs="unbounded" minOccurs="0">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element type="xs:byte" name="label_batch"/>
-                          <xs:element type="xs:short" name="bottle_number"/>
+                          <xs:element type="xs:byte" name="label"/>
+                          <xs:element type="xs:short" name="bottle"/>
                         </xs:sequence>
                       </xs:complexType>
                     </xs:element>
