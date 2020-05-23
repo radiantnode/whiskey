@@ -16,15 +16,37 @@
     </distiliary>
     <batches>
       <batch>
-        <label_batch>0038</label_batch>
-        <bottle_number>0912</bottle_number>
+        <label>0038</label>
+        <bottle>0912</bottle>
       </batch>
       <batch>
-        <label_batch>0040</label_batch>
-        <bottle_number>0037</bottle_number>
+        <label>0040</label>
+        <bottle>0037</bottle>
       </batch>
     </batches>
     <stars>4</stars>
+  </whiskey>
+  <whiskey>
+    <uuid>9f67ea7f-15e2-4ee2-b95d-62541a063521</uuid>
+    <name>Mr. Black Cold Brew Coffee Liqueur</name>
+    <url>https://mrblack.co/us/</url>
+    <bottle_image>mr_black.png</bottle_image>
+    <distiliary>
+      <uuid>fad56af5-c081-439e-84ea-aa15f7b83f6f</uuid>
+      <name>Mr. Black Coffee Roasters &amp; Craft Distillers</name>
+      <location>
+        <name>New South Wales, Australia</name>
+        <latitude>-31.840233</latitude>
+        <longitude>145.612793</longitude>
+      </location>
+    </distiliary>
+    <batches>
+      <batch>
+        <label>004/300</label>
+        <bottle>A1394</bottle>
+      </batch>
+    </batches>
+    <stars>5</stars>
   </whiskey>
   <whiskey>
     <uuid>c71f75ab-c9a8-4c15-ab5c-715150ea5632</uuid>
