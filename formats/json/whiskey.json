@@ -26,6 +26,22 @@
     "stars": 4
   },
   {
+    "uuid": "d9192b4a-d21a-4da6-b9e5-1f340a76a34d",
+    "name": "Bulleit 95 Rye",
+    "url": "https://www.bulleit.com/whiskeys/bulleit-rye/",
+    "bottle_image": "bulleit_95_rye.png",
+    "distiliary": {
+      "uuid": "b0b18b56-db6e-4cc9-bf6d-9c8bae28dbb0",
+      "name": "Bulleit Frontier Whiskey",
+      "location": {
+        "name": "Louisville, KY",
+        "latitude": 38.328732,
+        "longitude": -85.764771
+      }
+    },
+    "stars": 5
+  },
+  {
     "uuid": "9f67ea7f-15e2-4ee2-b95d-62541a063521",
     "name": "Mr. Black Cold Brew Coffee Liqueur",
     "url": "https://mrblack.co/us/",

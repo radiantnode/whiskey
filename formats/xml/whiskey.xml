@@ -27,6 +27,22 @@
     <stars>4</stars>
   </whiskey>
   <whiskey>
+    <uuid>d9192b4a-d21a-4da6-b9e5-1f340a76a34d</uuid>
+    <name>Bulleit 95 Rye</name>
+    <url>https://www.bulleit.com/whiskeys/bulleit-rye/</url>
+    <bottle_image>bulleit_95_rye.png</bottle_image>
+    <distiliary>
+      <uuid>b0b18b56-db6e-4cc9-bf6d-9c8bae28dbb0</uuid>
+      <name>Bulleit Frontier Whiskey</name>
+      <location>
+        <name>Louisville, KY</name>
+        <latitude>38.328732</latitude>
+        <longitude>-85.764771</longitude>
+      </location>
+    </distiliary>
+    <stars>5</stars>
+  </whiskey>
+  <whiskey>
     <uuid>9f67ea7f-15e2-4ee2-b95d-62541a063521</uuid>
     <name>Mr. Black Cold Brew Coffee Liqueur</name>
     <url>https://mrblack.co/us/</url>
