@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <Placemark>
+      <name>Oak &amp; Eden</name>
+      <description>
+        <![CDATA[<h2>Bridgeport, TX</h2>]]>
+      </description>
+      <Point>
+        <coordinates>-97.754753,33.210117</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Bulleit Frontier Whiskey</name>
+      <description>
+        <![CDATA[<h2>Louisville, KY</h2>]]>
+      </description>
+      <Point>
+        <coordinates>-85.764771,38.328732</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Mr. Black Coffee Roasters &amp; Craft Distillers</name>
+      <description>
+        <![CDATA[<h2>New South Wales, Australia</h2>]]>
+      </description>
+      <Point>
+        <coordinates>145.612793,-31.840233</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Skrewball</name>
+      <description>
+        <![CDATA[<h2>San Diego, CA</h2>]]>
+      </description>
+      <Point>
+        <coordinates>-117.161087,32.715736</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Whistlepig</name>
+      <description>
+        <![CDATA[<h2>Shoreham, VT</h2>]]>
+      </description>
+      <Point>
+        <coordinates>-73.279162,43.912406</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
