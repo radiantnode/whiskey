@@ -28,5 +28,5 @@ This project is meant as a personal record of whiskeys I like but also a way to 
 * [Markdown](README.md) (_this file_)
 * [XML](formats/xml/whiskey.xml)
 * [YAML](formats/yaml/whiskey.yaml)
-* [SQLite3](formats/sqlite3/README.md)
+* [SQLite3](formats/sqlite3)
 * more coming soon.
