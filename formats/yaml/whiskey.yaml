@@ -3,7 +3,7 @@
   name: Bourbon & Spire
   url: https://www.oakandeden.com/bourbon
   bottle_image: oak_and_eden_bourbon_and_spire.png
-  distiliary:
+  distillery:
     uuid: 4f5f40bb-fe42-40a7-8c77-7c971959a18e
     name: Oak & Eden
     location:
@@ -20,7 +20,7 @@
   name: Bulleit 95 Rye
   url: https://www.bulleit.com/whiskeys/bulleit-rye/
   bottle_image: bulleit_95_rye.png
-  distiliary:
+  distillery:
     uuid: b0b18b56-db6e-4cc9-bf6d-9c8bae28dbb0
     name: Bulleit Frontier Whiskey
     location:
@@ -32,7 +32,7 @@
   name: Mr. Black Cold Brew Coffee Liqueur
   url: https://mrblack.co/us/
   bottle_image: mr_black.png
-  distiliary:
+  distillery:
     uuid: fad56af5-c081-439e-84ea-aa15f7b83f6f
     name: Mr. Black Coffee Roasters & Craft Distillers
     location:
@@ -47,7 +47,7 @@
   name: Peanut Butter Whiskey
   url: https://www.skrewballwhiskey.com/
   bottle_image: skrewball_peanut_butter_whiskey.png
-  distiliary:
+  distillery:
     uuid: 2a8ad9b5-3b23-4676-97b0-7d495db23012
     name: Skrewball
     location:
@@ -59,7 +59,7 @@
   name: Piggyback Rye
   url: https://whistlepigwhiskey.com/whiskeys/piggyback-rye/
   bottle_image: whistlepig_piggyback_rye_6yr.png
-  distiliary:
+  distillery:
     uuid: 4bd8ad2c-390d-4dbc-ad2e-0e9922d66053
     name: Whistlepig
     location:

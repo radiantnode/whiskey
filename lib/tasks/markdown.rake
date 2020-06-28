@@ -16,9 +16,9 @@ namespace :markdown do
           "<img src=\"images/#{w.dig('bottle_image')}\" height=\"60\">" \
         '</div>',
 
-        w.dig('distiliary', 'name'),
+        w.dig('distillery', 'name'),
 
-        w.dig('distiliary', 'location', 'name'),
+        w.dig('distillery', 'location', 'name'),
 
         "[#{w.dig('name')}](#{w.dig('url')})",
 
