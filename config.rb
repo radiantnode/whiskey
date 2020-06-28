@@ -1,7 +1,7 @@
 WHISKEY_JSON = './formats/json/whiskey.json'
 HEADINGS = [
   'Bottle',
-  'Distiliary',
+  'Distillery',
   'Location',
   'Name',
   'Batch Info (when available)',

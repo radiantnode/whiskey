@@ -9,7 +9,7 @@
               <xs:element type="xs:string" name="name"/>
               <xs:element type="xs:string" name="url"/>
               <xs:element type="xs:string" name="bottle_image"/>
-              <xs:element name="distiliary">
+              <xs:element name="distillery">
                 <xs:complexType>
                   <xs:sequence>
                     <xs:element type="xs:string" name="uuid"/>

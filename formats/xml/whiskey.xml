@@ -5,7 +5,7 @@
     <name>Bourbon &amp; Spire</name>
     <url>https://www.oakandeden.com/bourbon</url>
     <bottle_image>oak_and_eden_bourbon_and_spire.png</bottle_image>
-    <distiliary>
+    <distillery>
       <uuid>4f5f40bb-fe42-40a7-8c77-7c971959a18e</uuid>
       <name>Oak &amp; Eden</name>
       <location>
@@ -13,7 +13,7 @@
         <latitude>33.210117</latitude>
         <longitude>-97.754753</longitude>
       </location>
-    </distiliary>
+    </distillery>
     <batches>
       <batch>
         <label>0038</label>
@@ -31,7 +31,7 @@
     <name>Bulleit 95 Rye</name>
     <url>https://www.bulleit.com/whiskeys/bulleit-rye/</url>
     <bottle_image>bulleit_95_rye.png</bottle_image>
-    <distiliary>
+    <distillery>
       <uuid>b0b18b56-db6e-4cc9-bf6d-9c8bae28dbb0</uuid>
       <name>Bulleit Frontier Whiskey</name>
       <location>
@@ -39,7 +39,7 @@
         <latitude>38.328732</latitude>
         <longitude>-85.764771</longitude>
       </location>
-    </distiliary>
+    </distillery>
     <stars>5</stars>
   </whiskey>
   <whiskey>
@@ -47,7 +47,7 @@
     <name>Mr. Black Cold Brew Coffee Liqueur</name>
     <url>https://mrblack.co/us/</url>
     <bottle_image>mr_black.png</bottle_image>
-    <distiliary>
+    <distillery>
       <uuid>fad56af5-c081-439e-84ea-aa15f7b83f6f</uuid>
       <name>Mr. Black Coffee Roasters &amp; Craft Distillers</name>
       <location>
@@ -55,7 +55,7 @@
         <latitude>-31.840233</latitude>
         <longitude>145.612793</longitude>
       </location>
-    </distiliary>
+    </distillery>
     <batches>
       <batch>
         <label>004/300</label>
@@ -69,7 +69,7 @@
     <name>Peanut Butter Whiskey</name>
     <url>https://www.skrewballwhiskey.com/</url>
     <bottle_image>skrewball_peanut_butter_whiskey.png</bottle_image>
-    <distiliary>
+    <distillery>
       <uuid>2a8ad9b5-3b23-4676-97b0-7d495db23012</uuid>
       <name>Skrewball</name>
       <location>
@@ -77,7 +77,7 @@
         <latitude>32.715736</latitude>
         <longitude>-117.161087</longitude>
       </location>
-    </distiliary>
+    </distillery>
     <stars>5</stars>
   </whiskey>
   <whiskey>
@@ -85,7 +85,7 @@
     <name>Piggyback Rye</name>
     <url>https://whistlepigwhiskey.com/whiskeys/piggyback-rye/</url>
     <bottle_image>whistlepig_piggyback_rye_6yr.png</bottle_image>
-    <distiliary>
+    <distillery>
       <uuid>4bd8ad2c-390d-4dbc-ad2e-0e9922d66053</uuid>
       <name>Whistlepig</name>
       <location>
@@ -93,7 +93,7 @@
         <latitude>43.912406</latitude>
         <longitude>-73.279162</longitude>
       </location>
-    </distiliary>
+    </distillery>
     <stars>5</stars>
   </whiskey>
 </whiskeys>

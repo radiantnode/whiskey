@@ -19,13 +19,13 @@ namespace :xml do
           xml.bottle_image w.dig('bottle_image')
 
           xml.distiliary do
-            xml.uuid w.dig('distiliary', 'uuid')
-            xml.name w.dig('distiliary', 'name')
+            xml.uuid w.dig('distillery', 'uuid')
+            xml.name w.dig('distillery', 'name')
 
             xml.location do
-              xml.name w.dig('distiliary', 'location', 'name')
-              xml.latitude w.dig('distiliary', 'location', 'latitude')
-              xml.longitude w.dig('distiliary', 'location', 'longitude')
+              xml.name w.dig('distillery', 'location', 'name')
+              xml.latitude w.dig('distillery', 'location', 'latitude')
+              xml.longitude w.dig('distillery', 'location', 'longitude')
             end
           end
 
