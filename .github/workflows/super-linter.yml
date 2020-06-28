@@ -12,6 +12,7 @@ jobs:
       - name: Lint Code Base
         uses: docker://github/super-linter:v2.2.0
         env:
-          VALIDATE_ALL_CODEBASE: true
-          VALIDATE_RUBY: false
-
+          VALIDATE_YAML: true
+          VALIDATE_JSON: true
+          VALIDATE_XML: true
+          VALIDATE_MD: true
