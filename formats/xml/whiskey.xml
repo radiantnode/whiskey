@@ -27,6 +27,22 @@
     <stars>4</stars>
   </whiskey>
   <whiskey>
+    <uuid>5e8cae91-cc81-438e-8cfa-5c1f6b4a7856</uuid>
+    <name>Buffalo Trace Bourbon</name>
+    <url>https://www.buffalotracedistillery.com/our-brands/buffalo-trace.html</url>
+    <bottle_image>buffalo_trace.png</bottle_image>
+    <distillery>
+      <uuid>cae2ef0f-de93-467f-8be0-4ba306c1baa1</uuid>
+      <name>Buffalo Trace Distillery</name>
+      <location>
+        <name>Frankfort, KY</name>
+        <latitude>38.1923319</latitude>
+        <longitude>-84.864719</longitude>
+      </location>
+    </distillery>
+    <stars>5</stars>
+  </whiskey>
+  <whiskey>
     <uuid>d9192b4a-d21a-4da6-b9e5-1f340a76a34d</uuid>
     <name>Bulleit 95 Rye</name>
     <url>https://www.bulleit.com/whiskeys/bulleit-rye/</url>

@@ -16,6 +16,18 @@
   - label: '0040'
     bottle: '0037'
   stars: 4
+- uuid: 5e8cae91-cc81-438e-8cfa-5c1f6b4a7856
+  name: Buffalo Trace Bourbon
+  url: https://www.buffalotracedistillery.com/our-brands/buffalo-trace.html
+  bottle_image: buffalo_trace.png
+  distillery:
+    uuid: cae2ef0f-de93-467f-8be0-4ba306c1baa1
+    name: Buffalo Trace Distillery
+    location:
+      name: Frankfort, KY
+      latitude: 38.1923319
+      longitude: -84.864719
+  stars: 5
 - uuid: d9192b4a-d21a-4da6-b9e5-1f340a76a34d
   name: Bulleit 95 Rye
   url: https://www.bulleit.com/whiskeys/bulleit-rye/
