@@ -18,7 +18,7 @@ namespace :xml do
           xml.url w.dig('url')
           xml.bottle_image w.dig('bottle_image')
 
-          xml.distiliary do
+          xml.distillery do
             xml.uuid w.dig('distillery', 'uuid')
             xml.name w.dig('distillery', 'name')
 
