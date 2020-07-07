@@ -23,10 +23,10 @@ namespace :markdown do
         "[#{w.dig('name')}](#{w.dig('url')})",
 
         w.dig('batches')&.map do |b|
-          b.map do |k, v|
+          "`#{b.map do |k, v|
             "#{k.split('_').collect(&:capitalize).join(' ')}: #{v}"
-          end.join(', ')
-        end&.join('<br>'),
+          end.join(', ')}`"
+        end&.join(', '),
 
         STAR * w.dig('stars') + EMPTY_STAR * (MAX_STARS - w.dig('stars'))
       ]
