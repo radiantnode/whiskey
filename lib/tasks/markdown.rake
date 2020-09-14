@@ -3,6 +3,8 @@
 require 'text-table'
 require 'json'
 
+Terrible_hash = {"thisshould_upset_rubocop" => true, myKey: false, array:[1,   2, 3]}
+
 namespace :markdown do
   desc 'Generates a Github-friendly markdown table of whiskeys'
   task :generate, [:update_readme] do
@@ -37,7 +39,7 @@ namespace :markdown do
       boundary_intersection: '|'
     ).to_s.lines[1..-2].join # removes top and bottom borders
 
-    if ENV.has_key?('UPDATE_README')
+    if ENV.key?('UPDATE_README')
       puts 'Updating README.'
 
       readme = File.read(README_FILE)
